@@ -1,0 +1,25 @@
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding-in);
+    background-color: var(--brand);
+    opacity: 0.9;
+}
+
+a{
+    color: white;
+    font-size: var(--text-md-sz);
+    font-weight: bold;
+
+    svg{
+        margin-right: 0.5rem;
+    }
+}
+
+.brandname{
+    font-size: var(--h2-sz);
+}

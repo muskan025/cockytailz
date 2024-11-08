@@ -1,0 +1,42 @@
+
+.cardmodal{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem; 
+    width: 100%;
+}
+
+.image{
+    width:100%;
+    border-radius: 10px;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+ }
+
+ .drinkname{
+    font-weight: bold;
+    font-size: var(--h2-sz);
+ }
+
+.list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    background-color: rgb(46, 45, 45);
+    border-radius: 10px;
+    padding: var(--padding-out);
+    color: white;
+}
+
+.listname{
+    font-weight: bold;
+    text-align: center;
+}
+ul{
+    list-style-type: circle;
+}
+ 

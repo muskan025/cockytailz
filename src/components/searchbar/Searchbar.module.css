@@ -1,0 +1,41 @@
+
+.searchbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-bottom: 7rem;
+}
+
+form{
+    width: 600px;
+    max-width: 800px;
+}
+
+input{
+    padding: var(--padding-in);
+    border-radius: 50px;
+outline: none;
+border: none;
+box-shadow: 2px 2px 5px grey;
+width: 100%;
+color: #2D3748;
+
+input::placeholder{
+    color: var(--text);
+    
+}
+}
+
+.error{
+    color: rgb(243 64 64);
+    border: 2px solid rgb(243 64 64);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+
+    svg{
+        vertical-align: middle;
+        margin-right: 0.2rem;
+    }
+}
