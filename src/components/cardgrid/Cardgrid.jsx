@@ -9,9 +9,7 @@ const Cardgrid = ({ favouriteList, searchQuery }) => {
     const [drinks, setDrinks] = useState(favouriteList || [])
 
     function filterDrinks(query) {
-        console.log(query)
         const filteredList = drinks.filter((drink) => (drink.strGlass.toLowerCase()).includes(searchQuery?.toLowerCase()))
-        console.log('filteredList', filteredList)
         setDrinks(filteredList)
     }
 
