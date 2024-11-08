@@ -26,7 +26,7 @@ const Cardgrid = ({ favouriteList, searchQuery }) => {
     }
 
     async function fetchAPI() {
-        const url = "http://www.thecocktaildb.com/api/json/v1/1/search.php?f=a"
+        const url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a"
         try {
             const response = await axios.get(url)
 
